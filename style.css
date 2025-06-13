@@ -1,0 +1,76 @@
+.full-width-heading {
+    background-color: #272e34;
+    width: 100vw;
+    margin: 0;
+    padding: 1em 0 1em 3em;
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.button_contacts {
+  background-color: #f2a500;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px; /* зафиксируй размер текста */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 200px;     /* минимальная ширина кнопки */
+  max-width: 200px;     /* максимальная ширина кнопки */
+  height: 50px;         /* фиксированная высота кнопки */
+  box-sizing: border-box;
+}
+
+
+.button_contacts:hover {
+  background-color: #d99000;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-text {
+  font-size: 32px;        /* фиксированное значение */
+  font-weight: bold;
+  line-height: 1.4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  white-space: pre-line;
+  max-width: 100%;
+}
+
+
+
+.image-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px; /* расстояние между текстом и кнопкой */
+}
+
+.image-overlay {
+  width: 100%;
+  max-width: 500px;   /* не больше этой ширины */
+}
